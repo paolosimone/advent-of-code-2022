@@ -1,2 +1,3 @@
-# advent-of-code-2022
-GOst of Christmas 👻
+# Advent Of Code 2022
+
+Coming soon...
