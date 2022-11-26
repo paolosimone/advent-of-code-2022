@@ -12,5 +12,5 @@ test-day:
 
 .PHONY: format
 format: 
-	gofumpt -w .
+	golangci-lint run --fix
 	golangci-lint run
