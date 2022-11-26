@@ -7,13 +7,10 @@ import (
 	"time"
 
 	"github.com/paolosimone/advent-of-code-2022/advent/days"
-	"github.com/paolosimone/advent-of-code-2022/advent/days/day00"
 	"github.com/samber/lo"
 )
 
-var Days = [...]days.DayLoader{
-	day00.Load,
-}
+var Days = [...]days.DayLoader{}
 
 type DayResult struct {
 	Day           int
