@@ -1,3 +1,5 @@
+day_pad := $(shell printf "%02d" $(day))
+
 .PHONY: run
 run:
 	go run main.go $(day)
@@ -8,7 +10,7 @@ test:
 
 .PHONY: test-day
 test-day:
-	echo TODO
+	go test ./advent/days/day$(day_pad)/day$(day_pad)_test.go
 
 .PHONY: format
 format: 

@@ -5,7 +5,7 @@ import (
 )
 
 type Day00 struct {
-	input string
+	Input string
 }
 
 func Load(input string) days.Day {
@@ -13,9 +13,9 @@ func Load(input string) days.Day {
 }
 
 func (day Day00) FirstChallenge() string {
-	return day.input
+	return day.Input
 }
 
 func (day Day00) SecondChallenge() string {
-	return day.input
+	return day.Input
 }

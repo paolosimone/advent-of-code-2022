@@ -1,13 +1,15 @@
-package day00
+package day00_test
 
 import (
 	"testing"
+
+	. "github.com/paolosimone/advent-of-code-2022/advent/days/day00"
 )
 
 func TestLoad(t *testing.T) {
 	t.Parallel()
 	day := Load("Merry Christmas")
-	if day, ok := day.(Day00); !ok || day.input != "Merry Christmas" {
+	if day, ok := day.(Day00); !ok || day.Input != "Merry Christmas" {
 		t.FailNow()
 	}
 }
