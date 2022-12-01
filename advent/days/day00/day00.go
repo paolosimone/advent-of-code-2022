@@ -13,9 +13,9 @@ func Load(input string) days.Day {
 }
 
 func (day Day00) FirstChallenge() string {
-	return day.Input
+	return "Merry Christmas"
 }
 
 func (day Day00) SecondChallenge() string {
-	return day.Input
+	return "Merry Christmas"
 }

@@ -49,10 +49,11 @@ var header = ReportRow{
 func buildReportRow(result DayResult) ReportRow {
 	return ReportRow{
 		fmt.Sprint(result.Day),
-		formatDuration(result.FirstElapsed),
+		formatDuration(result.LoadElapsed),
 		result.FirstResult,
-		formatDuration(result.SecondElapsed),
+		formatDuration(result.FirstElapsed),
 		result.SecondResult,
+		formatDuration(result.SecondElapsed),
 	}
 }
 
