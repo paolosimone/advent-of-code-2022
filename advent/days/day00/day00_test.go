@@ -11,7 +11,7 @@ func TestFirstChallenge(t *testing.T) {
 	day := Load("Merry Christmas")
 
 	if result := day.FirstChallenge(); result != "Merry Christmas" {
-		t.Fatal(day.FirstChallenge())
+		t.Fatal(result)
 	}
 }
 
@@ -20,6 +20,6 @@ func TestSecondChallenge(t *testing.T) {
 	day := Load("Merry Christmas")
 
 	if result := day.SecondChallenge(); result != "Merry Christmas" {
-		t.Fatal(day.SecondChallenge())
+		t.Fatal(result)
 	}
 }
