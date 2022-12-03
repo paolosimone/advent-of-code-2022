@@ -23,7 +23,6 @@ linters:
     - exportloopref
     - forcetypeassert
     - funlen
-    - gci
     - gochecknoinits
     - gocognit
     - gocritic
@@ -34,7 +33,6 @@ linters:
     - gofumpt
     - goheader
     - goimports
-    - gomnd
     - gomoddirectives
     - gomodguard
     - goprintffuncname
