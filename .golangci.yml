@@ -56,7 +56,6 @@ linters:
     - nolintlint
     - nonamedreturns
     - nosprintfhostport
-    - paralleltest
     - prealloc
     - predeclared
     - promlinter
