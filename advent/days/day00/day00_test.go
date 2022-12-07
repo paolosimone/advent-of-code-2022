@@ -7,7 +7,6 @@ import (
 )
 
 func TestFirstChallenge(t *testing.T) {
-	t.Parallel()
 	day := Load("Merry Christmas")
 
 	if result := day.FirstChallenge(); result != "Merry Christmas" {
@@ -16,7 +15,6 @@ func TestFirstChallenge(t *testing.T) {
 }
 
 func TestSecondChallenge(t *testing.T) {
-	t.Parallel()
 	day := Load("Merry Christmas")
 
 	if result := day.SecondChallenge(); result != "Merry Christmas" {
