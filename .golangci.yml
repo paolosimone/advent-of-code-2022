@@ -6,7 +6,6 @@ linters:
     - bodyclose
     - containedctx
     - contextcheck
-    - cyclop
     - decorder
     - depguard
     - dogsled
@@ -73,6 +72,5 @@ linters:
     - unparam
     - unused
     - usestdlibvars
-    - varnamelen
     - whitespace
     - wrapcheck
