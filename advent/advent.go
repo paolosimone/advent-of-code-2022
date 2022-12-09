@@ -15,6 +15,7 @@ import (
 	"github.com/paolosimone/advent-of-code-2022/advent/days/day06"
 	"github.com/paolosimone/advent-of-code-2022/advent/days/day07"
 	"github.com/paolosimone/advent-of-code-2022/advent/days/day08"
+	"github.com/paolosimone/advent-of-code-2022/advent/days/day09"
 	"github.com/samber/lo"
 )
 
@@ -27,6 +28,7 @@ var Days = [...]days.DayLoader{
 	day06.Load,
 	day07.Load,
 	day08.Load,
+	day09.Load,
 }
 
 type DayResult struct {
