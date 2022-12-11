@@ -55,7 +55,7 @@ func parseOp(line string) []Op {
 }
 
 func (day Day10) FirstChallenge() string {
-	values := make([]Register, len(day.Program) + 1)
+	values := make([]Register, len(day.Program)+1)
 
 	values[0] = 1
 	for tick := 0; tick < len(day.Program); tick++ {
